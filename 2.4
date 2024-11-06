@@ -16,4 +16,5 @@ for i in range(A.shape[1]):
     if B[i] > max_value:
         max_index = np.argmax(A[:, i])
         A[max_index, i] = B[i]
-print("Матрица A после замены:", A)
+print("Матрица A после замены:")
+print(A)
